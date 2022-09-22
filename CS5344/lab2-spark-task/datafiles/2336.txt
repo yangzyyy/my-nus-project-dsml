@@ -1,0 +1,31 @@
+excerpt     Ford, Volkswagen and Daimler are still struggling to deal with the impact of the chip shortage, and execs say a lack of chips is likely to remain a problem.
+text     - The shortage is thought to have been exacerbated by the move to electric vehicles.
+- There are now other shortages in raw materials to contend with as well.
+- Bosch, which is the world's largest car-parts supplier, believes semiconductor supply chains in the automotive industry are no longer fit for purpose.
+Car manufacturers including Ford, Volkswagen and Daimler are still struggling to deal with the impact of the global chip shortage, with executives from each of the companies warning a lack of silicon is likely to remain a problem.
+Volkswagen CEO Herbert Diess, Daimler CEO Ola Kallenius and Ford Europe chairman of the management board Gunnar Herrmann told CNBC's Annette Weisbach at the Munich Motor Show on Monday that it's hard to tell when the complex issue will be resolved.
+Germany's Volkswagen, Europe's largest carmaker, has lost market share in China as a result of the chip shortage, Diess said.
+"We are relatively weak because of semiconductor shortages," he said. "We are hit more in China than the rest of the world. That's why we are losing market share."
+Diess said his colleagues in China have been pushing for more semiconductors, describing the lack of chips as a "really big concern."
+The Wolfsburg-headquartered company was expecting the semiconductor situation to improve after the summer holidays but that hasn't been the case. Malaysia, where many of Volkswagen's suppliers are based, has been hit hard by the coronavirus in recent weeks, leading to several factory shutdowns.
+Diess said he believes the chip shortage issues will start to dissipate as countries reduce Covid-19 transmission, but he expects there to be a general shortage of semiconductors for some time. "We will face a general shortage of semiconductors because the internet of things is growing so fast so there will be constraints which we will try to manage," he said.
+Raw materials crisis
+Ford Europe's Herrmann, meanwhile, estimates the chip shortage could continue through to 2024, adding that it's difficult to pinpoint exactly when it will end.
+The shortage is thought to have been exacerbated by the move to electric vehicles. For example, a Ford Focus typically uses roughly 300 chips, whereas one of Ford's new electric vehicles can have up to 3,000 chips.
+Beyond chips, there are now other shortages to contend with. Ford is facing a "new crisis" in raw materials, Herrmann said.
+"It's not only semiconductors," he said, adding that lithium, plastics and steel are all in relatively short supply. "You find shortages or constraints all over the place."
+Car prices will rise as the cost of raw materials goes up, Herrmann said.
+Despite the imbalances, Herrmann said Ford Europe's incoming order bank was "fantastic" and that "demand is actually extremely strong."
+No longer fit for purpose
+Daimler's Kallenius said he hopes the third quarter is the "trough" of the disruptions. "That seems to be the quarter that will be most significantly affected by this," he said.
+"We hope that in the fourth quarter that we will start coming back up again," Kallenius said. "But there is a level of uncertainty that we have to deal with in our production system. It needs to stay flexible."
+The chip shortage has affected the automotive industry more than any other. Assembly lines have been shut down and some cars are now being shipped without features that rely on semiconductors.
+In the U.K., car production plummeted to a new low in July, marking the worst July performance for the industry since 1956.
+German technology and engineering group Bosch, which is the world's largest car-parts supplier, believes semiconductor supply chains in the automotive industry are no longer fit for purpose.
+Harald Kroeger, a member of the Bosch management board, told CNBC last month that supply chains have buckled in the last year as demand for chips in everything from cars to PlayStation 5s and electric toothbrushes has surged worldwide.
+Porsche, Skoda and Seat
+The CEOs of Porsche, Skoda and Seat said Tuesday that they're also feeling the pinch when it comes to semiconductors.
+Porsche boss Oliver Blume told CNBC the chip squeeze is causing production line delays and that he hopes the issue will be resolved soon. "We have the situation of the semiconductors and therefore the waiting time is longer than normal," Blume said, adding that some customers are waiting half a year or more.
+Thomas Schafer, the CEO of Skoda, told CNBC that Skoda has been "tremendously affected" by the semiconductor factory shutdowns in Malaysia. "Once this is done, hopefully in the next 4-5 weeks, there's still also a basic shortage that will probably last until 2022," he said.
+Seat CEO Wayne Griffiths told CNBC that the semiconductor shortage is challenging for all brands at the moment. "We're prioritizing our Cupra models and our electric cars with the semiconductors we have to try and make sure the delivery times there remain acceptable," Griffiths said.
+comments     

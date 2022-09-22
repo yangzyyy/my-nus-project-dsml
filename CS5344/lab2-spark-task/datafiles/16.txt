@@ -1,0 +1,31 @@
+excerpt     The law, which was to take effect Thursday, allows social media users to sue large platforms if they are blocked or their viewpoints are removed.
+text     Free speech goes for companies, too: Federal judge blocks Texas social media law
+A federal judge in Austin has blocked Texas' new social media law — which targets Twitter, Facebook and other large platforms that Republicans accuse of censoring conservatives — as an unconstitutional violation of the companies' free speech rights.
+U.S. District Judge Robert Pitman said the law known as House Bill 20, which prohibits large social media companies from censoring users based on their viewpoints, interferes with the platforms' editorial discretion and their First Amendment right to moderate the third-party content they disseminate.
+Read more:Tech groups sue in attempt to void Texas social media law
+"HB 20 prohibits virtually all content moderation, the very tool that social media platforms employ to make their platforms safe, useful, and enjoyable for users," Pitman wrote in an order released Wednesday night.
+The law was to take effect Thursday. Texas officials are expected to appeal.
+In his order granting a preliminary injunction against enforcing HB 20, Pitman said the U.S. Supreme Court has ruled several times that private companies can use editorial judgment to choose whether to publish certain content — and cannot be compelled by the government to publish other content.
+In addition, HB 20 would allow users to sue if they are blocked from posting on a large platform or their posts are removed. That threat, Pitman said, opens the companies to a myriad of lawsuits based on millions of individual editorial decisions, chilling the platforms from following their content-moderation policies.
+"Using YouTube as an example, hate speech is necessarily 'viewpoint' based, as abhorrent as those viewpoints may be. And removing such hate speech and assessing penalties against users for submitting that content is 'censorship' as defined by HB 20," Pitman wrote.
+From the governor:Abbott wants Texans to be able to sue social media for censorship
+The judge also took exception to the law's focus on social media companies with at least 50 million users a month.
+That standard allowed HB 20 to improperly target companies that lawmakers and Gov. Greg Abbott accused of being biased against conservative viewpoints, Pitman said, noting that the Texas Senate shot down a Democrat's proposed amendment that would have lowered the law's user threshold to include Parler and Gab, sites popular with conservatives.
+Plans to appeal
+Renae Eze, Abbott's spokeswoman, said the governor's office was working with state Attorney General Ken Paxton to "immediately appeal this ruling and protect Texans’ First Amendment rights."
+"Allowing biased social media companies to cancel conservative speech is hostile to the free speech foundation America was built on. In Texas, we will always fight to defend Texans’ freedom of speech," Eze said.
+The head of the Computer and Communications Industry Association, which filed suit against HB 20 with NetChoice on behalf of their social media members, praised the ruling.
+"Without this temporary injunction, Texas' social media law would make the internet a more dangerous place by tying the hands of companies protecting users from abuse, scams or extremist propaganda," said Matt Schruers, president of the computer association.
+New Texas laws:GOP voting bill, abortion drug legislation, and others
+"The First Amendment ensures that the government can’t force a citizen or company to be associated with a viewpoint they disapprove of, and that applies with particular force when a state law would prevent companies from enforcing policies against Nazi propaganda, hate speech and disinformation from foreign agents," Schruers said.
+'Burdensome' requirements
+In his order, Pitman also said social media companies were improperly burdened by HB 20's provisions that required platforms to create a system that lets users track complaints and receive an assessment of the legality of removed content within two days, excluding weekends. HB 20 also creates burdens by requiring large platforms to notify users every time a post is removed and provide an opportunity to appeal — with 14 days to give users a written explanation about the decision, the judge said.
+The requirements, Pitman said, "are inordinately burdensome given the unfathomably large numbers of posts on these sites and apps."
+"For example, in three months in 2021, Facebook removed 8.8 million pieces of 'bullying and harassment content,' 9.8 million pieces of 'organized hate content,' and 25.2 million pieces of 'hate speech content,'" Pitman wrote. "In a three-month period in 2021, YouTube removed 1.16 billion comments. Those 1.16 billion removals were not appealable, but, under HB 20, they would have to be."
+Public forums?
+Paxton argued that the large platforms are "common carrier" public forms, subjecting them to state regulation to ensure free and unobstructed access without fear of viewpoint discrimination.
+Pitman, however, said Twitter and other large social media concerns are privately owned platforms, not public forums, adding that the U.S. Supreme Court had previously determined that states could not commandeer private companies to facilitate public access, "even in the name of reducing ... bias."
+The two tech industry groups that challenged HB 20 also succeeded in blocking a somewhat similar Florida law earlier this year when a federal judge in Tallahassee found the law to be an impermissible attempt "to rein in social media providers deemed too large and too liberal."
+"Balancing the exchange of ideas among private speakers is not a legitimate governmental interest," U.S. District Judge Robert Hinkle ruled in June.
+That ruling has been appealed.
+comments     

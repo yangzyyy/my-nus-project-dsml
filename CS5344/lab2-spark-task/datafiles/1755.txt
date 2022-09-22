@@ -1,0 +1,29 @@
+excerpt     Restaurants that are struggling to fill jobs are beginning to turn to robotic solutions to ease staffing challenges and to speed up operations.
+text     Restaurants prep for long-term labor crunch by turning to robots to work the fryer, shuttle food to tables
+- Restaurants and ghost kitchen companies are testing out different robotic and automated technology solutions to speed up service and solve for ongoing labor challenges.
+- Companies such as Miso Robotics and Richtech are developing automated bots for both restaurant kitchens and dining rooms.
+- Economists say that the labor challenge will be prolonged and that robotics can help to ease the crunch but can't fully replace humans.
+At Inspire Brands' Innovation Center in Atlanta, the Flippy robot is taking on a new challenge. The automated worker, made by Miso Robotics, first came onto the scene as a burger solution. Now, it's frying wings for the first time.
+The bots, known as Flippy 1 and 2, have been in development for nearly five years, taking on pilots at brands such as CaliBurger and White Castle. The wings iteration is being tested at Inspire's Buffalo Wild Wings brand as a way to ramp up production and speed. The hope is to scale up its usage in 2022 and beyond.
+"Our strategy and our vision for automation at Inspire is really not about the labor shortage, it is all about how we increase our capacity," said Stephanie Sentell, SVP of restaurant operations and innovation at Inspire. "The automation that we are looking at will allow us to unlock that and provide faster food to our guests."
+But the labor shortage is unavoidable. The National Restaurant Association recently reported that 4 in 5 operators are understaffed. This includes 81% of full-service operators and 75% of limited-service operators. Robotics can help ease the staffing challenges and speed up operations.
+A fix for the fry station
+Miso said its Flippy 2 can help fill a tough role in kitchens — the fry station.
+"The fry station is one of those jobs, it's tough to do," said Mike Bell, Miso Robotics CEO. "It's monotonous, sometimes it's dangerous, and it's pretty repetitive. So it was a perfect opportunity for automation robotics to step in and help brands like Buffalo Wild Wings."
+The robot can cost up to $3,000 a month. Miso expects to participate in a dozen pilots with top restaurant chains in the next few months.
+And while Flippy gets to work in the back of the house, the Matradee from Richtech can wait and bus tables. The bot, which retails for up to $20,000, has been tested at restaurants including California Pizza Kitchen.
+Richtech Chief Operating Officer Phil Zheng told CNBC the company has been signing up large chains for pilots weekly in this tough environment.
+"Our food runner [robot] basically allows servers to serve a lot more tables, and customers get their food faster," Zheng said. "Restaurants are able to boost revenue, because servers are able to have more time communicating with the customer. ... They can upsell drinks or specials and things like that as well as drive more revenue for the business."
+The company also has a hospitality robot for cleaning and foresees opportunities ahead in airports and even senior living facilities as the labor shortage is expected to continue for years to come.
+Robotics usage also extends beyond just in-house operations for food companies. Ghost and virtual kitchen companies are also leaning into using robots to deliver food to customers.
+Kitchen United this week launched a five-day pilot program using the Kiwibot to take restaurant orders from its site at the Westfield Valley Fair mall in the Bay Area to homes within a half-mile radius. Reef Virtual Kitchens has a similar program with Cartken in Miami.
+Fast-food companies Domino's and Chipotle are also both involved with Softbank-backed Nuro. Domino's launched a pilot in Houston with Nuro's autonomous car this past spring. And Chipotle disclosed in March it had made an investment in Nuro as a part of its funding round in late 2020.
+Challenges ahead with robotics
+A recent report from EMSI, "The Demographic Drought," noted that while automation can help alleviate labor pains, it faces two challenges. First, robots can't fully replace people. And second, the current labor shortage isn't going anywhere, and workers will be needed to actually build robots and other automated technology solutions.
+"Companies trying to invest in AI development already face significant worker and skill shortages. As for robotic automation, analysis of market share for robotic automation has shown that the industries already most invested in it (automotive, electronics and metal) are still the ones driving the market, while collaborative robots are not meeting the standards needed for market penetration," the report said.
+Ron Hetrick, a labor economist at EMSI and one of the report's authors, said that as a whole the industry is not yet able to bring robotics in at a meaningful level. But future restaurant business models will continue to evolve as labor challenges remain. He expects business models could change so that the amount of service customers need drops.
+"You will probably lose out on the amount of restaurants that you can go sit in," Hetrick said.
+Miso's Bell said that software engineers are always in high demand, but the company is facing "normal challenges" in terms of worker availability. The current supply chain crunch is more of an immediate concern.
+"We don't have supply shortages at this time and we don't really foresee them in the next six months. But long term, there's a lot of things we need to get worked out. And hopefully this global supply chain straightens itself out in the months ahead," he said.
+— CNBC's Whitney Ksiazek contributed to this report.
+comments     
