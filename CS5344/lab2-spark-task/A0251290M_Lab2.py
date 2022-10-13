@@ -2,6 +2,7 @@ from pyspark import SparkConf, SparkContext
 import re
 import numpy as np
 import nltk
+
 # uncomment the line below to download nltk data package if you haven't already
 # nltk.download('punkt')
 
@@ -122,7 +123,8 @@ def find_relevant_sentence(id_list, top_10_rdd, stopwords, q, q_norm):
            q_norm - magnitude of the query vector.
     Output: res_rdd - a pair RDD with keys equal to docID and values as tuples containing relevance and the sentence.
     """
-    res_rdd = sc.parallelize([])  # create an empty RDD
+    # create an empty RDD to store most relevant sentence in each document
+    res_rdd = sc.parallelize([])
     for doc_id in id_list:
         doc_rdd = top_10_rdd.filter(lambda x: x[0] == doc_id)  # take all sentences from one document
         n_sentence = doc_rdd.count()  # number of sentences in this document
@@ -130,7 +132,11 @@ def find_relevant_sentence(id_list, top_10_rdd, stopwords, q, q_norm):
         # calculate TF, TF-IDF, and normalized TF-IDF for every word, and calculate relevance for every sentence
         tf_line_list, df_line_dict = term_freq_and_doc_freq(doc_rdd, stopwords)
         norm_line_rdd = normalized_tf_idf(tf_line_list, df_line_dict, n_sentence)
-        rel_line_q_rdd = relevance(norm_line_rdd, q, q_norm)
+        # create a new RDD to give each sentence a unique key
+        uniq_key_norm_line_list = [(doc_id + '-' + str(i + 1), norm_tf_idf_list)
+                                   for i, norm_tf_idf_list in enumerate(norm_line_rdd.values().collect())]
+        uniq_key_norm_line_rdd = sc.parallelize(uniq_key_norm_line_list).map(lambda x: (x[0], x[1]))
+        rel_line_q_rdd = relevance(uniq_key_norm_line_rdd, q, q_norm)
         # zip each sentence with its corresponding relevance, and convert list to RDD
         rel_sentence_list = list(zip(doc_rdd.values().collect(), rel_line_q_rdd.values().collect()))
         rel_sentence_rdd = sc.parallelize(rel_sentence_list)
