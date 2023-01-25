@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1 style="color:white;">Movies</h1>
+<div class="row">
+    {% for movie in movies %}
+    <div class="col">
+        <div class="card" style="width: 18rem; background-color:black;" >
+            <img src="{{ movie.image_url }}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title" style="color:white;">{{ movie.name }}</h5>
+                <i class="card-text" style="color:gray;">({{ movie.grade }})</i>
+                <p class="card-text" style="color:white;">{{ movie.duration }} minutes</p>
+                <a href="#" class="btn btn-primary">Buy Tickets</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
