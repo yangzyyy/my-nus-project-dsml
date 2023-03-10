@@ -142,7 +142,7 @@ if __name__ == "__main__":
     recovery.save(save_pth)
     np.save('./haar2_coeff.npy', haar2d_coef)
 
-    # visualization of wavelet decomposition
+    # # visualization of wavelet decomposition
     # Image.fromarray(out_norm.astype(np.uint8), mode='L').show()
     
     
