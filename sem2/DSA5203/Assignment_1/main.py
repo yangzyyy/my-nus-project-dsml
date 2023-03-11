@@ -118,7 +118,7 @@ if __name__ == "__main__":
     # As the hw_1.pdf mentioned, you can also write the test codes on other .py file.
 
     parser = argparse.ArgumentParser(description="wavelet")
-    parser.add_argument("--img_path",  type=str, default='./test.png',  help='The test image path')
+    parser.add_argument("--img_path",  type=str, default='./test512.png',  help='The test image path')
     parser.add_argument("--level", type=int, default=4, help="The level of wavelet decomposition")
     parser.add_argument("--save_pth", type=str, default='./recovery.png', help="The save path of reconstructed image ")
     # opt = parser.parse_args()
@@ -142,7 +142,7 @@ if __name__ == "__main__":
     recovery.save(save_pth)
     np.save('./haar2_coeff.npy', haar2d_coef)
 
-    # # visualization of wavelet decomposition
-    # Image.fromarray(out_norm.astype(np.uint8), mode='L').show()
+    # visualization of wavelet decomposition
+    Image.fromarray(out_norm.astype(np.uint8), mode='L').show()
     
     
