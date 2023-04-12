@@ -1,20 +1,19 @@
 import numpy as np
 import cv2
-
+import re
 
 def imrect(im1):
     # Perform Image rectification on an 3D array im.
     # Parameters: im1: numpy.ndarray, an array with H*W*C representing image.
     # (H,W is the image size and C is the channel)
-    # Returns: out: numpy.ndarray, rectified image。
-    #   out =im1
+    # Returns: out: numpy.ndarray, rectified image.
 
     gray = cv2.cvtColor(im1, cv2.COLOR_BGR2GRAY)
     blurred = cv2.GaussianBlur(gray, (3, 3), 0)
     edges = cv2.Canny(blurred, 100, 200)
     ret, thresh = cv2.threshold(blurred, 145, 255, cv2.THRESH_BINARY)
 
-    # detect the contours on the binary image using cv2.CHAIN_APPROX_NONE
+    # detect the contours using cv2.CHAIN_APPROX_NONE
     contours_thresh, hierarchy_thresh = cv2.findContours(image=thresh,
                                                          mode=cv2.RETR_TREE,
                                                          method=cv2.CHAIN_APPROX_NONE)
@@ -30,6 +29,10 @@ def imrect(im1):
 
 
 def biggest_contour(contours):
+    # Find the largest quadrilateral contour.
+    # Parameters: contours: tuple, a tuple with all contours in numpy.ndarray.
+    # Returns: biggest: numpy.ndarray, an array that has the four corner coordinates of the largest contour.
+
     biggest = np.array([])
     max_area = 0
     for i in contours:
@@ -44,6 +47,10 @@ def biggest_contour(contours):
 
 
 def order_points(pts):
+    # Order the four corner coordinates of the largest contour.
+    # Parameters: pts: numpy.ndarray, an array that has the four corner coordinates of the largest contour.
+    # Returns: out_pts: numpy.ndarray, the ordered coordinates of the largest contour.
+
     pts = pts.reshape(4, 2)
     out_pts = np.zeros((4, 2), dtype='float32')
 
@@ -61,6 +68,11 @@ def order_points(pts):
 
 
 def warp_image(orig, rect):
+    # Rectify the image backward based on the perspective transform matrix.
+    # Parameters: orig: numpy.ndarray, an array representing the input image.
+    #             rect: numpy.ndarray, an array that contains the ordered coordinates of the largest contour.
+    # Returns: warp: numpy.ndarray, an array representing the rectified image.
+
     (tl, tr, bl, br) = rect
     widthA = np.sqrt(((br[0] - bl[0]) ** 2) + ((br[1] - bl[1]) ** 2))
     widthB = np.sqrt(((tr[0] - tl[0]) ** 2) + ((tr[1] - tl[1]) ** 2))
@@ -80,18 +92,15 @@ def warp_image(orig, rect):
                    dtype="float32")
 
     # calculate the perspective transform matrix and warp the perspective
-    M = cv2.getPerspectiveTransform(rect, dst)
-    warp = cv2.warpPerspective(orig, M, (orig.shape[1], orig.shape[0]))
+    matrx = cv2.getPerspectiveTransform(rect, dst)
+    warp = cv2.warpPerspective(orig, matrx, (orig.shape[1], orig.shape[0]))
     return warp
 
 
 if __name__ == "__main__":
 
-    # This is the code for generating the rectified output
-    # If you have any question about code, please send email to e0444157@u.nus.edu
-    # fell free to modify any part of this code for convenience.
     img_names = ['./data/test1.jpg','./data/test2.jpg']
     for name in img_names:
         image = np.array(cv2.imread(name, -1))
         rectificated = imrect(image)
-        cv2.imwrite('./data/Result_'+name[7:], rectificated)
+        cv2.imwrite('./data/Result_' + re.findall(r'\d+', name)[0] + '.png', rectificated.astype(np.uint8))
